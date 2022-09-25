@@ -1,0 +1,44 @@
+.textes{
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif;
+}
+
+
+body{
+    background-color: black; 
+} 
+
+.image{ 
+    height: 100px;     
+}
+
+.cercle{
+    color: darkgoldenrod;
+}
+
+.titre_bleu{
+    color: cornflowerblue;
+}
+
+.droite{
+        text-align: right;
+
+}
+
+section.section1{ display: flex;
+                flex-direction: row;
+
+}
+
+img.bite{
+        width: 50%;
+}
+@media screen and (max-width:600px) {
+    section.section1{
+        width: 250%;
+    }
+    img.bite{
+        width: 75%;
+    }
+    
+}
